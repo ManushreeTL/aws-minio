@@ -1,0 +1,5 @@
+bucket_name: bucket5
+aws_access_key_id: 'iNsjMIqoJIfp2QlpiyU0'
+aws_secret_access_key: 'cbJROdKwayWaJ9nuPTCHqwnOasD3zgAMAK1xhV6I'
+region_name: 'us-east-1'
+endpoint_url: 'http://172.19.111.96:9000'
