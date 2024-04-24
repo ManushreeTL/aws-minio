@@ -55,18 +55,18 @@ class S3():
                     if tag['Key'] == self.tag_key:
                         print(f"Tag key '{self.tag_key}' exists.")
                         break
-                # self.s3.put_object_tagging(
-                #     Bucket=self.Bucket,
-                #     Key=self.Key,
-                #     Tagging={
-                #         'TagSet': [
-                #             {
-                #                 # 'Key': self.tag_key,
-                #                 'Value': self.tag_value
-                #             },
-                #         ]
-                #     },
-                # )
+                        # self.s3.put_object_tagging(
+                        #     Bucket=self.Bucket,
+                        #     Key=self.Key,
+                        #     Tagging={
+                        #         'TagSet': [
+                        #              {
+                        #                 # 'Key': self.tag_key,
+                        #                 'Value': self.tag_value
+                        #             },
+                        #         ]
+                        #     },
+                        # )
             else:   
                 self.s3.put_object_tagging(
                     Bucket=self.Bucket,
